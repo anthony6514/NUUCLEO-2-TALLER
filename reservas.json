@@ -1,0 +1,261 @@
+[
+  {
+    "_id": 1,
+    "turista": {
+      "id_turista": 1,
+      "nombres": "Sebastián",
+      "apellidos": "Naranjo Vega",
+      "correo": "seba.naranjo@gmail.com",
+      "nacionalidad": "Ecuatoriana"
+    },
+    "experiencia": {
+      "id_experiencia": 1,
+      "titulo": "Ritual de Agradecimiento a la Pachamama",
+      "categoria": "Espiritual",
+      "precio_persona": 55.00,
+      "ubicacion": "Comunidad Wasi Pacha, Cotopaxi",
+      "proveedor": "Asociación Wasi Pacha"
+    },
+    "guia_asignado": {
+      "nombres": "Norma",
+      "apellidos": "Quilumba Toapanta",
+      "especialidad": "Textiles Andinos y Cosmovisión",
+      "celular": "+593 96 4445566"
+    },
+    "fecha_solicitud": "2025-06-10T09:00:00Z",
+    "fecha_programada": "2025-07-20",
+    "participantes": 2,
+    "estado": "Aprobada",
+    "servicios": {
+      "transporte": true,
+      "alimentacion": true,
+      "hospedaje": false
+    },
+    "observaciones": "Solicitan guía en kichwa",
+    "pago": {
+      "monto_base": 110.00,
+      "monto_servicios": 30.00,
+      "monto_total": 140.00,
+      "forma_pago": "Transferencia",
+      "estado_pago": "Acreditado",
+      "referencia": "TRF-2025-0610-001",
+      "fecha_pago": "2025-06-10T09:45:00Z"
+    },
+    "valoraciones": [
+      {
+        "puntaje": 5,
+        "titulo_resena": "Una experiencia transformadora",
+        "resena": "La ceremonia con la yachak fue profundamente emotiva.",
+        "recomienda": true,
+        "fecha_resena": "2025-07-21T20:00:00Z"
+      },
+      {
+        "puntaje": 4,
+        "titulo_resena": "Regresaré el próximo año",
+        "resena": "La organización logística mejoró respecto a lo prometido.",
+        "recomienda": true,
+        "fecha_resena": "2025-07-22T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "turista": {
+      "id_turista": 2,
+      "nombres": "Fernanda",
+      "apellidos": "Ríos Castillo",
+      "correo": "feri.rios@hotmail.com",
+      "nacionalidad": "Ecuatoriana"
+    },
+    "experiencia": {
+      "id_experiencia": 3,
+      "titulo": "Cocina Costera: Sabores del Manglar",
+      "categoria": "Gastronomia",
+      "precio_persona": 40.00,
+      "ubicacion": "Bahía de Atacames, Esmeraldas",
+      "proveedor": "Red Comunitaria Manglares"
+    },
+    "guia_asignado": {
+      "nombres": "Rodrigo",
+      "apellidos": "Arroyo Ponce",
+      "especialidad": "Gastronomía y Pesca Artesanal",
+      "celular": "+593 97 3334455"
+    },
+    "fecha_solicitud": "2025-06-12T14:30:00Z",
+    "fecha_programada": "2025-08-05",
+    "participantes": 4,
+    "estado": "Aprobada",
+    "servicios": {
+      "transporte": true,
+      "alimentacion": true,
+      "hospedaje": false
+    },
+    "observaciones": "Alergia a los camarones - turista 2",
+    "pago": {
+      "monto_base": 160.00,
+      "monto_servicios": 40.00,
+      "monto_total": 200.00,
+      "forma_pago": "Tarjeta Credito",
+      "estado_pago": "Acreditado",
+      "referencia": "TC-2025-0612-002",
+      "fecha_pago": "2025-06-12T15:10:00Z"
+    },
+    "valoraciones": [
+      {
+        "puntaje": 4,
+        "titulo_resena": "Sabores únicos del océano",
+        "resena": "Los mariscos frescos y las técnicas de cocina artesanal sorprendieron a todo el grupo.",
+        "recomienda": true,
+        "fecha_resena": "2025-08-06T18:30:00Z"
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "turista": {
+      "id_turista": 3,
+      "nombres": "Thomas",
+      "apellidos": "Becker",
+      "correo": "thomas.becker@mail.de",
+      "nacionalidad": "Alemana"
+    },
+    "experiencia": {
+      "id_experiencia": 5,
+      "titulo": "Trekking al Mirador del Cóndor",
+      "categoria": "Aventura",
+      "precio_persona": 65.00,
+      "ubicacion": "Reserva Cayambe-Coca, Napo",
+      "proveedor": "Familia Chasqui Viajero"
+    },
+    "guia_asignado": {
+      "nombres": "Andrés",
+      "apellidos": "Hurtado Mora",
+      "especialidad": "Senderismo de Alta Montaña",
+      "celular": "+593 95 5556677"
+    },
+    "fecha_solicitud": "2025-06-15T10:00:00Z",
+    "fecha_programada": "2025-09-10",
+    "participantes": 1,
+    "estado": "En espera",
+    "servicios": {
+      "transporte": false,
+      "alimentacion": false,
+      "hospedaje": false
+    },
+    "observaciones": "Viajero con equipo de fotografía",
+    "pago": {
+      "monto_base": 65.00,
+      "monto_servicios": 0.00,
+      "monto_total": 65.00,
+      "forma_pago": "Nequi",
+      "estado_pago": "Pendiente",
+      "referencia": "NQ-2025-0615-003",
+      "fecha_pago": "2025-06-15T10:30:00Z"
+    },
+    "valoraciones": []
+  },
+  {
+    "_id": 4,
+    "turista": {
+      "id_turista": 4,
+      "nombres": "Valentina",
+      "apellidos": "Ruiz Moreno",
+      "correo": "vruizmoreno@outlook.com",
+      "nacionalidad": "Colombiana"
+    },
+    "experiencia": {
+      "id_experiencia": 2,
+      "titulo": "Expedición Nocturna de Anfibios",
+      "categoria": "Aventura",
+      "precio_persona": 70.00,
+      "ubicacion": "Cuenca del Río Pastaza, Pastaza",
+      "proveedor": "Colectivo Selva Viva"
+    },
+    "guia_asignado": {
+      "nombres": "Patricia",
+      "apellidos": "Grefa Shiguango",
+      "especialidad": "Fauna Amazónica y Supervivencia",
+      "celular": "+593 98 2223344"
+    },
+    "fecha_solicitud": "2025-06-18T16:00:00Z",
+    "fecha_programada": "2025-07-28",
+    "participantes": 3,
+    "estado": "Aprobada",
+    "servicios": {
+      "transporte": true,
+      "alimentacion": false,
+      "hospedaje": false
+    },
+    "observaciones": null,
+    "pago": {
+      "monto_base": 210.00,
+      "monto_servicios": 25.00,
+      "monto_total": 235.00,
+      "forma_pago": "Transferencia",
+      "estado_pago": "Acreditado",
+      "referencia": "TRF-2025-0618-004",
+      "fecha_pago": "2025-06-18T16:40:00Z"
+    },
+    "valoraciones": [
+      {
+        "puntaje": 5,
+        "titulo_resena": "Noche selvática inolvidable",
+        "resena": "Patricia conoce cada especie al dedillo. Ver las ranas fosforescentes fue mágico.",
+        "recomienda": true,
+        "fecha_resena": "2025-07-29T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "turista": {
+      "id_turista": 5,
+      "nombres": "Kenji",
+      "apellidos": "Tanaka",
+      "correo": "kenji.tanaka@japan.jp",
+      "nacionalidad": "Japonesa"
+    },
+    "experiencia": {
+      "id_experiencia": 4,
+      "titulo": "Tejido en Telar de Cintura",
+      "categoria": "Cultural",
+      "precio_persona": 50.00,
+      "ubicacion": "Tabacundo, Pichincha",
+      "proveedor": "Emprendimiento Páramo Alto"
+    },
+    "guia_asignado": {
+      "nombres": "Norma",
+      "apellidos": "Quilumba Toapanta",
+      "especialidad": "Textiles Andinos y Cosmovisión",
+      "celular": "+593 96 4445566"
+    },
+    "fecha_solicitud": "2025-06-20T08:30:00Z",
+    "fecha_programada": "2025-08-15",
+    "participantes": 2,
+    "estado": "Aprobada",
+    "servicios": {
+      "transporte": false,
+      "alimentacion": true,
+      "hospedaje": false
+    },
+    "observaciones": "Interés en técnicas de teñido natural",
+    "pago": {
+      "monto_base": 100.00,
+      "monto_servicios": 20.00,
+      "monto_total": 120.00,
+      "forma_pago": "Daviplata",
+      "estado_pago": "Acreditado",
+      "referencia": "DV-2025-0620-005",
+      "fecha_pago": "2025-06-20T09:00:00Z"
+    },
+    "valoraciones": [
+      {
+        "puntaje": 5,
+        "titulo_resena": "Arte textil que enamora",
+        "resena": "Norma explica con paciencia cada paso del telar. Me llevé mi propio tapiz terminado.",
+        "recomienda": true,
+        "fecha_resena": "2025-08-16T17:45:00Z"
+      }
+    ]
+  }
+]

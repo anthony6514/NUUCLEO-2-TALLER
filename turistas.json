@@ -1,0 +1,203 @@
+[
+  {
+    "_id": 1,
+    "nombres": "Sebastián",
+    "apellidos": "Naranjo Vega",
+    "documento": "1750432100",
+    "correo": "seba.naranjo@gmail.com",
+    "celular": "+593 99 8765432",
+    "nacionalidad": "Ecuatoriana",
+    "fecha_registro": "2025-01-10",
+    "reservas": [
+      {
+        "id_reserva": 1,
+        "experiencia": "Ritual de Agradecimiento a la Pachamama",
+        "fecha_programada": "2025-07-20",
+        "participantes": 2,
+        "estado": "Aprobada",
+        "servicios": { "transporte": true, "alimentacion": true, "hospedaje": false },
+        "pago": {
+          "monto_total": 140.00,
+          "forma_pago": "Transferencia",
+          "estado_pago": "Acreditado",
+          "referencia": "TRF-2025-0610-001"
+        }
+      },
+      {
+        "id_reserva": 7,
+        "experiencia": "Construcción de Balsa Amazónica",
+        "fecha_programada": "2025-10-05",
+        "participantes": 2,
+        "estado": "Aprobada",
+        "servicios": { "transporte": true, "alimentacion": true, "hospedaje": true },
+        "pago": {
+          "monto_total": 210.00,
+          "forma_pago": "Tarjeta Debito",
+          "estado_pago": "Acreditado",
+          "referencia": "TD-2025-0625-007"
+        }
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_valoracion": 1,
+        "experiencia": "Ritual de Agradecimiento a la Pachamama",
+        "puntaje": 5,
+        "titulo_resena": "Una experiencia transformadora",
+        "recomienda": true,
+        "fecha_resena": "2025-07-21T20:00:00Z"
+      },
+      {
+        "id_valoracion": 6,
+        "experiencia": "Ritual de Agradecimiento a la Pachamama",
+        "puntaje": 4,
+        "titulo_resena": "Regresaré el próximo año",
+        "recomienda": true,
+        "fecha_resena": "2025-07-22T10:00:00Z"
+      },
+      {
+        "id_valoracion": 5,
+        "experiencia": "Construcción de Balsa Amazónica",
+        "puntaje": 5,
+        "titulo_resena": "La balsa fue el reto del año",
+        "recomienda": true,
+        "fecha_resena": "2025-10-06T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "nombres": "Fernanda",
+    "apellidos": "Ríos Castillo",
+    "documento": "0603891200",
+    "correo": "feri.rios@hotmail.com",
+    "celular": "+593 98 7654321",
+    "nacionalidad": "Ecuatoriana",
+    "fecha_registro": "2025-02-14",
+    "reservas": [
+      {
+        "id_reserva": 2,
+        "experiencia": "Cocina Costera: Sabores del Manglar",
+        "fecha_programada": "2025-08-05",
+        "participantes": 4,
+        "estado": "Aprobada",
+        "servicios": { "transporte": true, "alimentacion": true, "hospedaje": false },
+        "pago": {
+          "monto_total": 200.00,
+          "forma_pago": "Tarjeta Credito",
+          "estado_pago": "Acreditado",
+          "referencia": "TC-2025-0612-002"
+        }
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_valoracion": 2,
+        "experiencia": "Cocina Costera: Sabores del Manglar",
+        "puntaje": 4,
+        "titulo_resena": "Sabores únicos del océano",
+        "recomienda": true,
+        "fecha_resena": "2025-08-06T18:30:00Z"
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "nombres": "Thomas",
+    "apellidos": "Becker",
+    "documento": "DE8821345",
+    "correo": "thomas.becker@mail.de",
+    "celular": "+49 151 33445566",
+    "nacionalidad": "Alemana",
+    "fecha_registro": "2025-03-05",
+    "reservas": [
+      {
+        "id_reserva": 3,
+        "experiencia": "Trekking al Mirador del Cóndor",
+        "fecha_programada": "2025-09-10",
+        "participantes": 1,
+        "estado": "En espera",
+        "servicios": { "transporte": false, "alimentacion": false, "hospedaje": false },
+        "pago": {
+          "monto_total": 65.00,
+          "forma_pago": "Nequi",
+          "estado_pago": "Pendiente",
+          "referencia": "NQ-2025-0615-003"
+        }
+      }
+    ],
+    "valoraciones": []
+  },
+  {
+    "_id": 4,
+    "nombres": "Valentina",
+    "apellidos": "Ruiz Moreno",
+    "documento": "CO9934512",
+    "correo": "vruizmoreno@outlook.com",
+    "celular": "+57 300 9988776",
+    "nacionalidad": "Colombiana",
+    "fecha_registro": "2025-04-18",
+    "reservas": [
+      {
+        "id_reserva": 4,
+        "experiencia": "Expedición Nocturna de Anfibios",
+        "fecha_programada": "2025-07-28",
+        "participantes": 3,
+        "estado": "Aprobada",
+        "servicios": { "transporte": true, "alimentacion": false, "hospedaje": false },
+        "pago": {
+          "monto_total": 235.00,
+          "forma_pago": "Transferencia",
+          "estado_pago": "Acreditado",
+          "referencia": "TRF-2025-0618-004"
+        }
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_valoracion": 3,
+        "experiencia": "Expedición Nocturna de Anfibios",
+        "puntaje": 5,
+        "titulo_resena": "Noche selvática inolvidable",
+        "recomienda": true,
+        "fecha_resena": "2025-07-29T21:00:00Z"
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "nombres": "Kenji",
+    "apellidos": "Tanaka",
+    "documento": "JP5566778",
+    "correo": "kenji.tanaka@japan.jp",
+    "celular": "+81 90 44556677",
+    "nacionalidad": "Japonesa",
+    "fecha_registro": "2025-05-22",
+    "reservas": [
+      {
+        "id_reserva": 5,
+        "experiencia": "Tejido en Telar de Cintura",
+        "fecha_programada": "2025-08-15",
+        "participantes": 2,
+        "estado": "Aprobada",
+        "servicios": { "transporte": false, "alimentacion": true, "hospedaje": false },
+        "pago": {
+          "monto_total": 120.00,
+          "forma_pago": "Daviplata",
+          "estado_pago": "Acreditado",
+          "referencia": "DV-2025-0620-005"
+        }
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_valoracion": 4,
+        "experiencia": "Tejido en Telar de Cintura",
+        "puntaje": 5,
+        "titulo_resena": "Arte textil que enamora",
+        "recomienda": true,
+        "fecha_resena": "2025-08-16T17:45:00Z"
+      }
+    ]
+  }
+]

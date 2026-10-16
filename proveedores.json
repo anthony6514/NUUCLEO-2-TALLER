@@ -1,0 +1,131 @@
+[
+  {
+    "_id": 1,
+    "nombre": "Asociación Wasi Pacha",
+    "region": "Sierra Centro",
+    "tipo": "Asociacion",
+    "representante": "Verónica Chimborazo",
+    "telefono": "+593 99 1234567",
+    "email": "info@wasipacha.ec",
+    "activo": true,
+    "experiencias_ofrecidas": [
+      {
+        "id_experiencia": 1,
+        "titulo": "Ritual de Agradecimiento a la Pachamama",
+        "categoria": "Espiritual",
+        "precio_persona": 55.00,
+        "cupo_maximo": 8
+      },
+      {
+        "id_experiencia": 6,
+        "titulo": "Siembra y Cosecha de Quinua Orgánica",
+        "categoria": "Agricola",
+        "precio_persona": 38.00,
+        "cupo_maximo": 10
+      }
+    ],
+    "estadisticas": {
+      "total_reservas": 3,
+      "ingresos_acreditados": 350.00
+    }
+  },
+  {
+    "_id": 2,
+    "nombre": "Colectivo Selva Viva",
+    "region": "Amazonía Sur",
+    "tipo": "Cooperativa",
+    "representante": "Héctor Grefa",
+    "telefono": "+593 98 2345678",
+    "email": "contacto@selvaviva.ec",
+    "activo": true,
+    "experiencias_ofrecidas": [
+      {
+        "id_experiencia": 2,
+        "titulo": "Expedición Nocturna de Anfibios",
+        "categoria": "Aventura",
+        "precio_persona": 70.00,
+        "cupo_maximo": 6
+      },
+      {
+        "id_experiencia": 7,
+        "titulo": "Construcción de Balsa Amazónica",
+        "categoria": "Cultural",
+        "precio_persona": 80.00,
+        "cupo_maximo": 8
+      }
+    ],
+    "estadisticas": {
+      "total_reservas": 2,
+      "ingresos_acreditados": 445.00
+    }
+  },
+  {
+    "_id": 3,
+    "nombre": "Red Comunitaria Manglares",
+    "region": "Costa Norte",
+    "tipo": "Comunidad",
+    "representante": "Dolores Arroyo",
+    "telefono": "+593 97 3456789",
+    "email": "red@manglares.ec",
+    "activo": true,
+    "experiencias_ofrecidas": [
+      {
+        "id_experiencia": 3,
+        "titulo": "Cocina Costera: Sabores del Manglar",
+        "categoria": "Gastronomia",
+        "precio_persona": 40.00,
+        "cupo_maximo": 12
+      }
+    ],
+    "estadisticas": {
+      "total_reservas": 1,
+      "ingresos_acreditados": 200.00
+    }
+  },
+  {
+    "_id": 4,
+    "nombre": "Emprendimiento Páramo Alto",
+    "region": "Sierra Norte",
+    "tipo": "Empresa Social",
+    "representante": "Segundo Quilumba",
+    "telefono": "+593 96 4567890",
+    "email": "paramo@alto.ec",
+    "activo": true,
+    "experiencias_ofrecidas": [
+      {
+        "id_experiencia": 4,
+        "titulo": "Tejido en Telar de Cintura",
+        "categoria": "Cultural",
+        "precio_persona": 50.00,
+        "cupo_maximo": 10
+      }
+    ],
+    "estadisticas": {
+      "total_reservas": 1,
+      "ingresos_acreditados": 120.00
+    }
+  },
+  {
+    "_id": 5,
+    "nombre": "Familia Chasqui Viajero",
+    "region": "Andes Meridionales",
+    "tipo": "Comunidad",
+    "representante": "Luz Hurtado",
+    "telefono": "+593 95 5678901",
+    "email": "chasqui@viajero.ec",
+    "activo": true,
+    "experiencias_ofrecidas": [
+      {
+        "id_experiencia": 5,
+        "titulo": "Trekking al Mirador del Cóndor",
+        "categoria": "Aventura",
+        "precio_persona": 65.00,
+        "cupo_maximo": 15
+      }
+    ],
+    "estadisticas": {
+      "total_reservas": 1,
+      "ingresos_acreditados": 65.00
+    }
+  }
+]

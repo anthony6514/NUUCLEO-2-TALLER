@@ -1,0 +1,201 @@
+[
+  {
+    "_id": 1,
+    "titulo": "Ritual de Agradecimiento a la Pachamama",
+    "categoria": "Espiritual",
+    "descripcion": "Ceremonia ancestral kichwa de ofrenda y conexión con la tierra, guiada por un yachak local.",
+    "duracion_horas": 5.0,
+    "precio_persona": 55.00,
+    "cupo_maximo": 8,
+    "cupo_disponible": 8,
+    "ubicacion": "Comunidad Wasi Pacha, Cotopaxi",
+    "activa": true,
+    "proveedor": {
+      "id_proveedor": 1,
+      "nombre": "Asociación Wasi Pacha",
+      "region": "Sierra Centro",
+      "representante": "Verónica Chimborazo"
+    },
+    "guias": [
+      {
+        "id_guia": 4,
+        "nombres": "Norma",
+        "apellidos": "Quilumba Toapanta",
+        "especialidad": "Textiles Andinos y Cosmovisión",
+        "idiomas": ["Español", "Kichwa", "Inglés"]
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_turista": 1,
+        "turista": "Sebastián Naranjo Vega",
+        "puntaje": 5,
+        "titulo_resena": "Una experiencia transformadora",
+        "resena": "La ceremonia con la yachak fue profundamente emotiva. El equipo fue muy cálido y organizado.",
+        "recomienda": true,
+        "fecha_resena": "2025-07-21T20:00:00Z"
+      },
+      {
+        "id_turista": 1,
+        "turista": "Sebastián Naranjo Vega",
+        "puntaje": 4,
+        "titulo_resena": "Regresaré el próximo año",
+        "resena": "La organización logística mejoró respecto a lo prometido. El contenido cultural es excepcional.",
+        "recomienda": true,
+        "fecha_resena": "2025-07-22T10:00:00Z"
+      }
+    ],
+    "promedio_puntaje": 4.5,
+    "total_reservas": 2
+  },
+  {
+    "_id": 2,
+    "titulo": "Expedición Nocturna de Anfibios",
+    "categoria": "Aventura",
+    "descripcion": "Recorrido científico-recreativo para observar ranas y reptiles en su hábitat natural nocturno.",
+    "duracion_horas": 3.5,
+    "precio_persona": 70.00,
+    "cupo_maximo": 6,
+    "cupo_disponible": 6,
+    "ubicacion": "Cuenca del Río Pastaza, Pastaza",
+    "activa": true,
+    "proveedor": {
+      "id_proveedor": 2,
+      "nombre": "Colectivo Selva Viva",
+      "region": "Amazonía Sur",
+      "representante": "Héctor Grefa"
+    },
+    "guias": [
+      {
+        "id_guia": 2,
+        "nombres": "Patricia",
+        "apellidos": "Grefa Shiguango",
+        "especialidad": "Fauna Amazónica y Supervivencia",
+        "idiomas": ["Español", "Inglés", "Shuar"]
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_turista": 4,
+        "turista": "Valentina Ruiz Moreno",
+        "puntaje": 5,
+        "titulo_resena": "Noche selvática inolvidable",
+        "resena": "Patricia conoce cada especie al dedillo. Ver las ranas fosforescentes fue mágico. Muy recomendada.",
+        "recomienda": true,
+        "fecha_resena": "2025-07-29T21:00:00Z"
+      }
+    ],
+    "promedio_puntaje": 5.0,
+    "total_reservas": 1
+  },
+  {
+    "_id": 3,
+    "titulo": "Cocina Costera: Sabores del Manglar",
+    "categoria": "Gastronomia",
+    "descripcion": "Taller práctico de preparación de ceviches, patacones y mariscos con técnicas de cocineros comunitarios.",
+    "duracion_horas": 4.0,
+    "precio_persona": 40.00,
+    "cupo_maximo": 12,
+    "cupo_disponible": 12,
+    "ubicacion": "Bahía de Atacames, Esmeraldas",
+    "activa": true,
+    "proveedor": {
+      "id_proveedor": 3,
+      "nombre": "Red Comunitaria Manglares",
+      "region": "Costa Norte",
+      "representante": "Dolores Arroyo"
+    },
+    "guias": [
+      {
+        "id_guia": 3,
+        "nombres": "Rodrigo",
+        "apellidos": "Arroyo Ponce",
+        "especialidad": "Gastronomía y Pesca Artesanal",
+        "idiomas": ["Español", "Inglés"]
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_turista": 2,
+        "turista": "Fernanda Ríos Castillo",
+        "puntaje": 4,
+        "titulo_resena": "Sabores únicos del océano",
+        "resena": "Los mariscos frescos y las técnicas de cocina artesanal sorprendieron a todo el grupo. Excelente.",
+        "recomienda": true,
+        "fecha_resena": "2025-08-06T18:30:00Z"
+      }
+    ],
+    "promedio_puntaje": 4.0,
+    "total_reservas": 1
+  },
+  {
+    "_id": 4,
+    "titulo": "Tejido en Telar de Cintura",
+    "categoria": "Cultural",
+    "descripcion": "Aprende a tejer tapices andinos con hilos de lana de oveja teñidos con plantas naturales.",
+    "duracion_horas": 6.0,
+    "precio_persona": 50.00,
+    "cupo_maximo": 10,
+    "cupo_disponible": 10,
+    "ubicacion": "Tabacundo, Pichincha",
+    "activa": true,
+    "proveedor": {
+      "id_proveedor": 4,
+      "nombre": "Emprendimiento Páramo Alto",
+      "region": "Sierra Norte",
+      "representante": "Segundo Quilumba"
+    },
+    "guias": [
+      {
+        "id_guia": 4,
+        "nombres": "Norma",
+        "apellidos": "Quilumba Toapanta",
+        "especialidad": "Textiles Andinos y Cosmovisión",
+        "idiomas": ["Español", "Kichwa", "Inglés"]
+      }
+    ],
+    "valoraciones": [
+      {
+        "id_turista": 5,
+        "turista": "Kenji Tanaka",
+        "puntaje": 5,
+        "titulo_resena": "Arte textil que enamora",
+        "resena": "Norma explica con paciencia cada paso del telar. Me llevé mi propio tapiz terminado. Increíble.",
+        "recomienda": true,
+        "fecha_resena": "2025-08-16T17:45:00Z"
+      }
+    ],
+    "promedio_puntaje": 5.0,
+    "total_reservas": 1
+  },
+  {
+    "_id": 5,
+    "titulo": "Trekking al Mirador del Cóndor",
+    "categoria": "Aventura",
+    "descripcion": "Senderismo de 12 km por el páramo hasta un mirador con vista panorámica a cuatro volcanes.",
+    "duracion_horas": 7.0,
+    "precio_persona": 65.00,
+    "cupo_maximo": 15,
+    "cupo_disponible": 15,
+    "ubicacion": "Reserva Cayambe-Coca, Napo",
+    "activa": true,
+    "proveedor": {
+      "id_proveedor": 5,
+      "nombre": "Familia Chasqui Viajero",
+      "region": "Andes Meridionales",
+      "representante": "Luz Hurtado"
+    },
+    "guias": [
+      {
+        "id_guia": 5,
+        "nombres": "Andrés",
+        "apellidos": "Hurtado Mora",
+        "especialidad": "Senderismo de Alta Montaña",
+        "idiomas": ["Español", "Inglés", "Alemán"]
+      }
+    ],
+    "valoraciones": [],
+    "promedio_puntaje": null,
+    "total_reservas": 1
+  }
+]
